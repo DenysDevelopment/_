@@ -1,0 +1,30 @@
+p {
+  font-weight: regular;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+button {
+  background: rgb(148, 102, 223);
+  border-radius: 100px;
+  color: rgb(224, 171, 241);
+  padding: 5px 10px;
+  margin: 0 auto;
+  display: block;
+  transition: all 0.3s;
+  border: 0;
+  font-weight: bold;
+  text-shadow: 0 0 5px rgb(112, 42, 126);
+}
+button:hover {
+  background: rgb(130, 90, 196);
+  box-shadow: 0 0 20px rgb(199, 130, 255);
+  transform: scale(1.1);
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+body {
+  font-family: Montserrat;
+}
